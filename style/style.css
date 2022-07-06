@@ -1,34 +1,38 @@
-#img-index{
-    padding: 20px;
-    
-}
-main{
-    min-height:100vh;
-    background-image: url(../img/Fondo2.jpg)
+body {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 5em;
 }
 
-#gallery{
-    padding: 20px;
-}
-#footer{
-    position: bottom;
-}
-
-
-#contactp{
-    padding: 20px;
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
-
-body{
-    min-height: 100vh;
-    position: relative;
-    padding-bottom:5em;
+main {
+  min-height: 100vh;
+  background-image: url(../img/Fondo2.jpg);
 }
 
-footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+h1 {
+  padding: 10px;
 }
 
+#img-index {
+  padding: 20px;
+}
+
+#contactp {
+  padding: 20px;
+}
+
+#gallery {
+  padding: 20px;
+}
+
+.card {
+  background-color: rgb(196, 57, 196);
+}
+
+/*# sourceMappingURL=style.css.map */
