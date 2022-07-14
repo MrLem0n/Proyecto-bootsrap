@@ -1,3 +1,41 @@
+.back-Verde {
+  background-color: rgb(29, 240, 100);
+}
+.back-Fuxia {
+  background-color: rgb(218, 87, 211);
+}
+.back-Amarillo {
+  background-color: rgba(231, 241, 86, 0.897);
+}
+.back-Negro {
+  background-color: black;
+}
+.back-Blanco {
+  background-color: white;
+}
+
+.btn-basic, .btn-remove, .btn-add {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: black;
+  color: white;
+}
+
+.btn-remove {
+  background-color: rgba(236, 15, 15, 0.678);
+  color: white;
+}
+
+.bord {
+  border: 5px solid black;
+}
+
 body {
   min-height: 100vh;
   position: relative;
@@ -29,10 +67,6 @@ h1 {
 
 #gallery {
   padding: 20px;
-}
-
-.card {
-  background-color: rgb(196, 57, 196);
 }
 
 /*# sourceMappingURL=style.css.map */
