@@ -27,6 +27,10 @@
 .bord {
   border: 5px solid black; }
 
+#botoncito {
+  margin-top: 100px;
+  width: 50%; }
+
 body {
   min-height: 100vh;
   position: relative;
@@ -78,5 +82,8 @@ h1 {
 .gal-6 {
   grid-column: 3/4;
   grid-row: 3/4; }
+
+.img-fluid:hover {
+  transform: scale(1.12, 1.12); }
 
 /*# sourceMappingURL=style.css.map */
